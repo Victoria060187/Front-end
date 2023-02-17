@@ -1,1 +1,119 @@
+@import url('reset.css');
+body {
+    background:beige;
+}
 
+h1 {
+    text-align: center;
+    color: coral;
+    font-weight: 600;
+    border: 2px solid rgb(238, 189, 130);
+    background: rgb(161, 63, 27);
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: red;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: chocolate;
+    border: 2px dotted rgb(45, 6, 6);
+    padding-right: 80px;
+}
+
+p {
+    text-align: justify;
+    color: brown;
+    padding-top: 20px;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    border: 2px solid brown;
+}
+
+.box_1 {
+    margin-left: 70px;
+    margin-right: 30px;
+}
+
+.box_2 {
+    margin: 30px 30px 50px 70px;
+}
+
+.image {
+    height: 260px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 2px dotted red;
+}
+
+.notebox{
+    margin-left: 70px;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+.notebox + .notebox{
+    margin: 20px 30px 20px 70px;
+    padding: 20px;
+    background: orange;
+    border: 4px solid red;    
+}
+
+.container > div {
+	background: yellow;
+}
+
+.table-container {
+    width: 1200px;
+	margin: 0 auto;
+}
+
+.table {
+	width: 600px;
+	height: 500px;
+    margin: 80px auto;
+	border: 2px solid black;
+}
+
+td {
+	border: 1px solid black;
+	width: 20px;
+	height: 20px;
+}
+
+.color {
+	background: gray;
+}
+
+.color_1 {
+	background: rgb(54, 84, 5);
+}
+
+.color_2 {
+	background: rgb(5, 56, 5);
+}
+
+.color_3 {
+	background: rgb(10, 184, 10);
+}
+
+.color_4 {
+	background: rgb(239, 178, 21);
+}
+
+.color_5 {
+	background: blue;
+}
