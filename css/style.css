@@ -68,8 +68,8 @@ p {
 .notebox + .notebox{
     margin: 20px 30px 20px 70px;
     padding: 20px;
-    background: orange;
-    border: 4px solid red;    
+    background: aqua;
+    border: 4px solid rgb(0, 255, 153);    
 }
 
 .container > div {
